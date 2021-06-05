@@ -14,13 +14,10 @@ public class FrequencySortQ3 {
 		{
 			if (freqMap.containsKey(arr[i])) 
 			{
-				// If number is present in freqMap,incrementing it's count by 1	
 				freqMap.put(arr[i], freqMap.get(arr[i]) + 1);
-			}
-				
+			}				
 			else 
 			{
-				// If integer is not present in freqMap, putting this integer to freqMap with 1 as it's value
 				freqMap.put(arr[i], 1);
 			}
 		}
@@ -37,9 +34,7 @@ public class FrequencySortQ3 {
 		    });
 		
 		System.out.println(l1);
-		
 	}
-	
 	public static void main(String args[])
 	{
 		int arr[]= {5,6,7,3,5,6,7,3,6,7,6,3,5,6,3,6,6,6,6,3,3,54,67,23,0,87,5};
